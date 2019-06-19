@@ -1,4 +1,8 @@
-@media  screen and (min-width: 1281px) {
+@media screen and (min-width: 1281px) {
+
+  .tablet {
+    display: none;
+  }
 
   body {
     background-color: #F5F5F5;
@@ -32,6 +36,7 @@
   }
 
   h1.blue_paragraph {
+    width: 800px;
     margin-top: 300px;
   }
 
@@ -56,9 +61,7 @@
     right: calc((100% - 1400px) / 2);
   }
 
-  h1.blue_paragraph {
-    width: 800px;
-  }
+
 
   /*container screen*/
 

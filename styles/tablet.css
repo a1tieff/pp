@@ -1,3 +1,166 @@
-@media (min-width: 768px) and (max-width: 1023px) {
-  
+@media (min-width: 768px) and (max-width: 900px), (min-width: 901px) and (max-width: 1023px) {
+
+  .desktop,
+  .mobile {
+    display: none;
+  }
+
+  .container.element,
+  .container.counter {
+    height: 400px;
+  }
+
+  .center {
+    padding-top: 100px;
+  }
+
+  h1.main {
+    width: 650px;
+    margin-top: 90px;
+  }
+
+  h1.blue_paragraph {
+    width: 650px;
+    margin-top: 268px;
+  }
+
+  h1.number {
+    font-size: 110px;
+    margin-top: 50px;
+  }
+
+  p.number {
+    margin-top: 30px;
+  }
+
+  img.logo {
+    width: 90px;
+    margin-top: 150px;
+  }
+
+  /*container screen*/
+
+  .element .text {
+    margin-top: 110px;
+  }
+
+  .right {
+    margin-right: 0px;
+    margin-left: auto;
+  }
+
+  .left {
+    margin-left: 0px;
+    margin-right: auto;
+  }
+
+  section.image.phone img {
+    margin-top: 110px;
+    width: 180px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  section.image.phone.img_left img {
+    float: left;
+  }
+
+  section.image.phone.img_right img {
+    float: right;
+  }
+
+  /*elements*/
+
+  section.image.element img {
+    margin-top: 130px;
+    width: 270px;
+    height: 202.64px;
+  }
+
+  section.image.element.img_left img {
+    float: left;
+  }
+
+  section.image.element.img_right img {
+    float: right;
+  }
+
+  /*button*/
+
+  .button {
+    width: 210px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+
+  .container {
+    height: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  section.image.main img {
+    top: 500px;
+    width: 800px;
+    left: calc((100% - 800px) / 2);
+    right: calc((100% - 800px) / 2);
+  }
+
+  .text {
+    margin-top: 150px;
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1023px) {
+
+  .container {
+    height: 768px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .text {
+    margin-top: 150px;
+    width: 460px;
+  }
+
+  section.image.main img {
+    top: 550px;
+    width: 891px;
+    left: calc((100% - 891px) / 2);
+    right: calc((100% - 891px) / 2);
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
 }
